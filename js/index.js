@@ -67,3 +67,9 @@ displayStudent = () => {
 
 
 }
+
+studentRes = () => {
+    let data =JSON.stringify(studentRegistration)
+    localStorage.setItem('registration', data)
+    window.location.href = "index.html"
+}
